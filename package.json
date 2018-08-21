@@ -1,0 +1,35 @@
+{
+  "name": "cashmoney",
+  "version": "1.0.0",
+  "description": "Caching.",
+  "main": "source/CashMoney.js",
+  "scripts": {
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -u tdd -R spec",
+    "test": "./node_modules/mocha/bin/_mocha -u tdd -R spec",
+    "build": "node Bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenvelozo/cashmoney.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "Steven Velozo <steven@velozo.com> (http://velozo.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenvelozo/cashmoney/issues"
+  },
+  "homepage": "https://github.com/stevenvelozo/cashmoney",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "babelify": "^9.0.0",
+    "browserify": "^16.2.2",
+    "chai": "4.1.2",
+    "codeclimate-test-reporter": "0.5.0",
+    "coveralls": "3.0.2",
+    "istanbul": "0.4.5",
+    "mocha": "5.2.0"
+  },
+  "dependencies": {}
+}
