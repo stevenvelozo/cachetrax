@@ -4,7 +4,7 @@ var libFS = require("fs");
 
 var libBrowserify = require("browserify");
 
-libBrowserify("./source/CashMoney.js")
+libBrowserify("./source/CacheTrax.js")
   .transform("babelify")
   .bundle()
-  .pipe(libFS.createWriteStream("./lib/CashMoney-Browser.js"));
+  .pipe(libFS.createWriteStream("./lib/CacheTrax-Browser.js"));

@@ -10,7 +10,7 @@ var Chai = require('chai');
 var Expect = Chai.expect;
 var Assert = Chai.assert;
 
-var libCash = require('../source/CashMoney.js');
+var libCash = require('../source/CacheTrax.js');
 
 suite
 (
