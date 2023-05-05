@@ -77,7 +77,7 @@ class CashMoney
 	{
 		if (!this._HashMap.hasOwnProperty(pHash))
 			return false;
-		
+
 		// Get the old node out of the list
 		let tmpNode = this._List.remove(this._HashMap[pHash]);
 		// Remove it from the hash map
@@ -92,7 +92,7 @@ class CashMoney
 	{
 		if (!this._HashMap.hasOwnProperty(pHash))
 			return false;
-		
+
 		let tmpNode = this._HashMap[pHash];
 
 		// Remove it from the list of cached records
@@ -153,7 +153,7 @@ class CashMoney
 		}
 		fComplete(tmpRemovedRecords);
 	}
-	
+
 	// Prune the list down to the asserted rules (max age then max length if still too long)
 	prune(fComplete)
 	{
@@ -162,7 +162,7 @@ class CashMoney
 		// If there are no cached records, we are done.
 		if (this._List.length < 1)
 			return fComplete(tmpRemovedRecords);
-		
+
 		// Now prune based on expiration time
 		this.pruneBasedOnExpiration((fExpirationPruneComplete)=>
 			{
@@ -170,22 +170,22 @@ class CashMoney
 				this.pruneBasedOnLength(fComplete, tmpRemovedRecords);
 			}, tmpRemovedRecords);
 	}
-	
+
 	// Read a datum by hash from the cache
 	read(pHash)
 	{
 		if (!this._HashMap.hasOwnProperty(pHash))
 			return false;
-		
+
 		return this._HashMap[pHash].Datum;
 	}
-	
+
 	// Get a low level node (including metadata statistics) by hash from the cache
 	getNode(pHash)
 	{
 		if (!this._HashMap.hasOwnProperty(pHash))
 			return false;
-		
+
 		return this._HashMap[pHash];
 	}
 }
