@@ -1,6 +1,6 @@
 {
   "name": "cachetrax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Caching.",
   "main": "source/CacheTrax.js",
   "scripts": {
@@ -56,5 +56,7 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "fable-serviceproviderbase": "^3.0.4"
+  }
 }

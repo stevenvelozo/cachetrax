@@ -1,8 +1,16 @@
 "use strict";
 
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
 function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
@@ -53,15 +61,72 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
     return r;
   }()({
     1: [function (require, module, exports) {
+      /**
+      * Fable Core Pre-initialization Service Base
+      *
+      * For a couple services, we need to be able to instantiate them before the Fable object is fully initialized.
+      * This is a base class for those services.
+      *
+      * @author <steven@velozo.com>
+      */
+      var FableCoreServiceProviderBase = /*#__PURE__*/function () {
+        function FableCoreServiceProviderBase(pOptions, pServiceHash) {
+          _classCallCheck(this, FableCoreServiceProviderBase);
+          this.fable = false;
+          this.options = _typeof(pOptions) === 'object' ? pOptions : {};
+          this.serviceType = 'Unknown';
+
+          // The hash will be a non-standard UUID ... the UUID service uses this base class!
+          this.UUID = "CORESVC-".concat(Math.floor(Math.random() * (99999 - 10000) + 10000));
+          this.Hash = typeof pServiceHash === 'string' ? pServiceHash : "".concat(this.UUID);
+        }
+        _createClass(FableCoreServiceProviderBase, [{
+          key: "connectFable",
+          value:
+          // After fable is initialized, it would be expected to be wired in as a normal service.
+          function connectFable(pFable) {
+            this.fable = pFable;
+            return true;
+          }
+        }]);
+        return FableCoreServiceProviderBase;
+      }();
+      _defineProperty(FableCoreServiceProviderBase, "isFableService", true);
+      module.exports = FableCoreServiceProviderBase;
+    }, {}],
+    2: [function (require, module, exports) {
+      /**
+      * Fable Service Base
+      * @author <steven@velozo.com>
+      */
+      var FableServiceProviderBase = /*#__PURE__*/_createClass(function FableServiceProviderBase(pFable, pOptions, pServiceHash) {
+        _classCallCheck(this, FableServiceProviderBase);
+        this.fable = pFable;
+        this.options = _typeof(pOptions) === 'object' ? pOptions : _typeof(pFable) === 'object' && !pFable.isFable ? pFable : {};
+        this.serviceType = 'Unknown';
+        if (typeof pFable.getUUID == 'function') {
+          this.UUID = pFable.getUUID();
+        } else {
+          this.UUID = "NoFABLESVC-".concat(Math.floor(Math.random() * (99999 - 10000) + 10000));
+        }
+        this.Hash = typeof pServiceHash === 'string' ? pServiceHash : "".concat(this.UUID);
+      });
+      _defineProperty(FableServiceProviderBase, "isFableService", true);
+      module.exports = FableServiceProviderBase;
+      module.exports.CoreServiceProviderBase = require('./Fable-ServiceProviderBase-Preinit.js');
+    }, {
+      "./Fable-ServiceProviderBase-Preinit.js": 1
+    }],
+    3: [function (require, module, exports) {
       var libNPMModuleWrapper = require('./CacheTrax.js');
       if ((typeof window === "undefined" ? "undefined" : _typeof(window)) === 'object' && !window.hasOwnProperty('CacheTrax')) {
         window.CacheTrax = libNPMModuleWrapper;
       }
       module.exports = libNPMModuleWrapper;
     }, {
-      "./CacheTrax.js": 2
+      "./CacheTrax.js": 4
     }],
-    2: [function (require, module, exports) {
+    4: [function (require, module, exports) {
       /**
       * Cache data structure with:
       *  - enumerable items
@@ -76,32 +141,33 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       *  - no dependencies at all
       *  - pet friendly
       *
-      * @license MIT
-      *
       * @author Steven Velozo <steven@velozo.com>
-      * @module CashMoney
       */
-
-      /**
-      * Quality Cache Goodness
-      *
-      * @class CashMoney
-      * @constructor
-      */
-
+      var libFableServiceProviderBase = require('fable-serviceproviderbase');
       var libLinkedList = require("./LinkedList.js");
-      var CashMoney = /*#__PURE__*/function () {
-        function CashMoney() {
+      var CashMoney = /*#__PURE__*/function (_libFableServiceProvi) {
+        _inherits(CashMoney, _libFableServiceProvi);
+        var _super = _createSuper(CashMoney);
+        function CashMoney(pFable, pManifest, pServiceHash) {
+          var _this;
           _classCallCheck(this, CashMoney);
+          if (pFable === undefined) {
+            _this = _super.call(this, {});
+          } else {
+            _this = _super.call(this, pFable, pManifest, pServiceHash);
+          }
+          _this.serviceType = 'ObjectCache';
+
           // The map of node objects by hash because Reasons.
-          this._HashMap = {};
-          this._List = new libLinkedList();
+          _this._HashMap = {};
+          _this._List = new libLinkedList();
 
           // If the list gets over maxLength, we will automatically remove nodes on insertion.
-          this.maxLength = 0;
+          _this.maxLength = 0;
 
           // If cache entries get over this age, they are removed with prune
-          this.maxAge = 0;
+          _this.maxAge = 0;
+          return _possibleConstructorReturn(_this);
         }
 
         // Add (or update) a node in the cache
@@ -207,7 +273,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
         }, {
           key: "prune",
           value: function prune(fComplete) {
-            var _this = this;
+            var _this2 = this;
             var tmpRemovedRecords = [];
 
             // If there are no cached records, we are done.
@@ -216,7 +282,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
             // Now prune based on expiration time
             this.pruneBasedOnExpiration(function (fExpirationPruneComplete) {
               // Now prune based on length, then return the removed records in the callback.
-              _this.pruneBasedOnLength(fComplete, tmpRemovedRecords);
+              _this2.pruneBasedOnLength(fComplete, tmpRemovedRecords);
             }, tmpRemovedRecords);
           }
 
@@ -237,12 +303,13 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
           }
         }]);
         return CashMoney;
-      }();
+      }(libFableServiceProviderBase);
       module.exports = CashMoney;
     }, {
-      "./LinkedList.js": 4
+      "./LinkedList.js": 6,
+      "fable-serviceproviderbase": 2
     }],
-    3: [function (require, module, exports) {
+    5: [function (require, module, exports) {
       /**
       * Double Linked List Node
       *
@@ -270,7 +337,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       });
       module.exports = LinkedListNode;
     }, {}],
-    4: [function (require, module, exports) {
+    6: [function (require, module, exports) {
       "use strict";
 
       /**
@@ -418,7 +485,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
         }, {
           key: "each",
           value: function each(fAction, fComplete) {
-            var _this2 = this;
+            var _this3 = this;
             if (this.length < 1) return fComplete();
             var tmpNode = false;
             var fIterator = function fIterator(pError) {
@@ -426,7 +493,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
               if (pError) return fComplete(pError);
 
               // If there is no node, this must be the initial run.
-              if (!tmpNode) tmpNode = _this2.head;
+              if (!tmpNode) tmpNode = _this3.head;
               // Check if we are at the tail of the list
               else if (!tmpNode.RightNode) return fComplete();
               // Proceed to the next node
@@ -459,7 +526,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       }();
       module.exports = LinkedList;
     }, {
-      "./LinkedList-Node.js": 3
+      "./LinkedList-Node.js": 5
     }]
-  }, {}, [1])(1);
+  }, {}, [3])(3);
 });

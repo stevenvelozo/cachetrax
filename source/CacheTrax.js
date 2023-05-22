@@ -12,25 +12,27 @@
 *  - no dependencies at all
 *  - pet friendly
 *
-* @license MIT
-*
 * @author Steven Velozo <steven@velozo.com>
-* @module CashMoney
 */
-
-/**
-* Quality Cache Goodness
-*
-* @class CashMoney
-* @constructor
-*/
+const libFableServiceProviderBase = require('fable-serviceproviderbase');
 
 const libLinkedList = require(`./LinkedList.js`);
 
-class CashMoney
+class CashMoney extends libFableServiceProviderBase
 {
-	constructor()
+	constructor(pFable, pManifest, pServiceHash)
 	{
+		if (pFable === undefined)
+		{
+			super({});
+		}
+		else
+		{
+			super(pFable, pManifest, pServiceHash);
+		}
+
+        this.serviceType = 'ObjectCache';
+
 		// The map of node objects by hash because Reasons.
 		this._HashMap = {};
 

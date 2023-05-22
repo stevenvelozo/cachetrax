@@ -1,5 +1,8 @@
 "use strict";
 
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return typeof key === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (typeof input !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (typeof res !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
 (function (f) {
   if (typeof exports === "object" && typeof module !== "undefined") {
     module.exports = f();
@@ -47,15 +50,69 @@
     return r;
   }()({
     1: [function (require, module, exports) {
+      /**
+      * Fable Core Pre-initialization Service Base
+      *
+      * For a couple services, we need to be able to instantiate them before the Fable object is fully initialized.
+      * This is a base class for those services.
+      *
+      * @author <steven@velozo.com>
+      */
+
+      class FableCoreServiceProviderBase {
+        constructor(pOptions, pServiceHash) {
+          this.fable = false;
+          this.options = typeof pOptions === 'object' ? pOptions : {};
+          this.serviceType = 'Unknown';
+
+          // The hash will be a non-standard UUID ... the UUID service uses this base class!
+          this.UUID = "CORESVC-".concat(Math.floor(Math.random() * (99999 - 10000) + 10000));
+          this.Hash = typeof pServiceHash === 'string' ? pServiceHash : "".concat(this.UUID);
+        }
+        // After fable is initialized, it would be expected to be wired in as a normal service.
+        connectFable(pFable) {
+          this.fable = pFable;
+          return true;
+        }
+      }
+      _defineProperty(FableCoreServiceProviderBase, "isFableService", true);
+      module.exports = FableCoreServiceProviderBase;
+    }, {}],
+    2: [function (require, module, exports) {
+      /**
+      * Fable Service Base
+      * @author <steven@velozo.com>
+      */
+
+      class FableServiceProviderBase {
+        constructor(pFable, pOptions, pServiceHash) {
+          this.fable = pFable;
+          this.options = typeof pOptions === 'object' ? pOptions : typeof pFable === 'object' && !pFable.isFable ? pFable : {};
+          this.serviceType = 'Unknown';
+          if (typeof pFable.getUUID == 'function') {
+            this.UUID = pFable.getUUID();
+          } else {
+            this.UUID = "NoFABLESVC-".concat(Math.floor(Math.random() * (99999 - 10000) + 10000));
+          }
+          this.Hash = typeof pServiceHash === 'string' ? pServiceHash : "".concat(this.UUID);
+        }
+      }
+      _defineProperty(FableServiceProviderBase, "isFableService", true);
+      module.exports = FableServiceProviderBase;
+      module.exports.CoreServiceProviderBase = require('./Fable-ServiceProviderBase-Preinit.js');
+    }, {
+      "./Fable-ServiceProviderBase-Preinit.js": 1
+    }],
+    3: [function (require, module, exports) {
       var libNPMModuleWrapper = require('./CacheTrax.js');
       if (typeof window === 'object' && !window.hasOwnProperty('CacheTrax')) {
         window.CacheTrax = libNPMModuleWrapper;
       }
       module.exports = libNPMModuleWrapper;
     }, {
-      "./CacheTrax.js": 2
+      "./CacheTrax.js": 4
     }],
-    2: [function (require, module, exports) {
+    4: [function (require, module, exports) {
       /**
       * Cache data structure with:
       *  - enumerable items
@@ -70,22 +127,19 @@
       *  - no dependencies at all
       *  - pet friendly
       *
-      * @license MIT
-      *
       * @author Steven Velozo <steven@velozo.com>
-      * @module CashMoney
       */
-
-      /**
-      * Quality Cache Goodness
-      *
-      * @class CashMoney
-      * @constructor
-      */
-
+      const libFableServiceProviderBase = require('fable-serviceproviderbase');
       const libLinkedList = require("./LinkedList.js");
-      class CashMoney {
-        constructor() {
+      class CashMoney extends libFableServiceProviderBase {
+        constructor(pFable, pManifest, pServiceHash) {
+          if (pFable === undefined) {
+            super({});
+          } else {
+            super(pFable, pManifest, pServiceHash);
+          }
+          this.serviceType = 'ObjectCache';
+
           // The map of node objects by hash because Reasons.
           this._HashMap = {};
           this._List = new libLinkedList();
@@ -212,9 +266,10 @@
       }
       module.exports = CashMoney;
     }, {
-      "./LinkedList.js": 4
+      "./LinkedList.js": 6,
+      "fable-serviceproviderbase": 2
     }],
-    3: [function (require, module, exports) {
+    5: [function (require, module, exports) {
       /**
       * Double Linked List Node
       *
@@ -245,7 +300,7 @@
       }
       module.exports = LinkedListNode;
     }, {}],
-    4: [function (require, module, exports) {
+    6: [function (require, module, exports) {
       "use strict";
 
       /**
@@ -415,7 +470,7 @@
       }
       module.exports = LinkedList;
     }, {
-      "./LinkedList-Node.js": 3
+      "./LinkedList-Node.js": 5
     }]
-  }, {}, [1])(1);
+  }, {}, [3])(3);
 });
