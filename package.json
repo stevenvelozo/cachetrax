@@ -1,7 +1,7 @@
 {
   "name": "cachetrax",
-  "version": "1.0.2",
-  "description": "Caching.",
+  "version": "1.0.3",
+  "description": "Caching Money.",
   "main": "source/CacheTrax.js",
   "scripts": {
     "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -u tdd -R spec",

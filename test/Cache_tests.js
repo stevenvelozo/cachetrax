@@ -93,10 +93,13 @@ suite
 						testCache.put('STU', 'S');
 						testCache.put('VWX', 'V');
 						testCache.put('YZ', 'Y');
+
 						Expect(testCache._List.length).to.equal(9);
 
 						// Read a value
 						Expect(testCache.read('M')).to.equal('MNO');
+
+						Expect(testCache.RecordMap.M).to.equal('MNO');
 
 						// Now expire that value
 						Expect(testCache.expire('M').Datum).to.equal('MNO');
