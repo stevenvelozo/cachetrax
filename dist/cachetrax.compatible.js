@@ -30,7 +30,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
     } else {
       g = this;
     }
-    g.CacheTrax = f();
+    g.Cachetrax = f();
   }
 })(function () {
   var define, module, exports;
@@ -110,6 +110,11 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
           this.UUID = "NoFABLESVC-".concat(Math.floor(Math.random() * (99999 - 10000) + 10000));
         }
         this.Hash = typeof pServiceHash === 'string' ? pServiceHash : "".concat(this.UUID);
+
+        // Pull back a few things
+        this.log = this.fable.log;
+        this.servicesMap = this.fable.serviceMap;
+        this.services = this.fable.services;
       });
       _defineProperty(FableServiceProviderBase, "isFableService", true);
       module.exports = FableServiceProviderBase;
@@ -118,15 +123,6 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       "./Fable-ServiceProviderBase-Preinit.js": 1
     }],
     3: [function (require, module, exports) {
-      var libNPMModuleWrapper = require('./CacheTrax.js');
-      if ((typeof window === "undefined" ? "undefined" : _typeof(window)) === 'object' && !window.hasOwnProperty('CacheTrax')) {
-        window.CacheTrax = libNPMModuleWrapper;
-      }
-      module.exports = libNPMModuleWrapper;
-    }, {
-      "./CacheTrax.js": 4
-    }],
-    4: [function (require, module, exports) {
       /**
       * Cache data structure with:
       *  - enumerable items
@@ -335,10 +331,10 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       }(libFableServiceProviderBase);
       module.exports = CashMoney;
     }, {
-      "./LinkedList.js": 6,
+      "./LinkedList.js": 5,
       "fable-serviceproviderbase": 2
     }],
-    5: [function (require, module, exports) {
+    4: [function (require, module, exports) {
       /**
       * Double Linked List Node
       *
@@ -366,7 +362,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       });
       module.exports = LinkedListNode;
     }, {}],
-    6: [function (require, module, exports) {
+    5: [function (require, module, exports) {
       "use strict";
 
       /**
@@ -555,7 +551,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
       }();
       module.exports = LinkedList;
     }, {
-      "./LinkedList-Node.js": 5
+      "./LinkedList-Node.js": 4
     }]
   }, {}, [3])(3);
 });
