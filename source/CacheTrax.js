@@ -9,7 +9,6 @@
 *
 * Also:
 *  - built to work well with browserify
-*  - no dependencies at all
 *  - pet friendly
 *
 * @author Steven Velozo <steven@velozo.com>
