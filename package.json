@@ -44,9 +44,9 @@
     },
     "homepage": "https://github.com/stevenvelozo/cachetrax",
     "devDependencies": {
-        "quackage": "^1.0.14"
+        "quackage": "^1.0.51"
     },
     "dependencies": {
-        "fable-serviceproviderbase": "^3.0.7"
+        "fable-serviceproviderbase": "^3.0.18"
     }
 }
