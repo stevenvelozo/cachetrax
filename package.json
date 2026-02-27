@@ -1,6 +1,6 @@
 {
     "name": "cachetrax",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Caching Money.",
     "main": "source/CacheTrax.js",
     "scripts": {
@@ -47,6 +47,6 @@
         "quackage": "^1.0.51"
     },
     "dependencies": {
-        "fable-serviceproviderbase": "^3.0.18"
+        "fable-serviceproviderbase": "^3.0.19"
     }
 }
