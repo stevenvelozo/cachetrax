@@ -31,13 +31,13 @@ New entries are appended to the **tail** (right end). When the cache exceeds `ma
 
 ```
 put(data, hash)
-  ├── Hash exists? → Update Datum in _HashMap node and _RecordMap
+  ├── Hash exists? -> Update Datum in _HashMap node and _RecordMap
   └── New hash?
-       ├── LinkedList.push(data, hash) → append node to tail
+       ├── LinkedList.push(data, hash) -> append node to tail
        ├── _HashMap[hash] = node
        ├── _RecordMap[hash] = data
        ├── Set node.Metadata.Created = now
-       └── If length > maxLength → pop head, delete from both maps
+       └── If length > maxLength -> pop head, delete from both maps
 
 read(hash)
   └── _HashMap[hash].Datum  (or false on miss)
@@ -45,7 +45,7 @@ read(hash)
 touch(hash)
   ├── LinkedList.remove(node)
   ├── Delete from both maps
-  └── put(datum, hash) → re-insert as fresh entry at tail
+  └── put(datum, hash) -> re-insert as fresh entry at tail
 
 expire(hash)
   ├── LinkedList.remove(node)
@@ -53,8 +53,8 @@ expire(hash)
   └── Return the removed node
 
 prune()
-  ├── pruneBasedOnExpiration() → walk _HashMap, expire nodes older than maxAge
-  └── pruneBasedOnLength() → pop head until length <= maxLength
+  ├── pruneBasedOnExpiration() -> walk _HashMap, expire nodes older than maxAge
+  └── pruneBasedOnLength() -> pop head until length <= maxLength
 ```
 
 ## Auto-Generated Hashes

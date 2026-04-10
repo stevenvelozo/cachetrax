@@ -62,11 +62,11 @@ CacheTrax maintains two parallel data structures:
 New entries are appended to the tail of the list. When the cache exceeds `maxLength`, the head (oldest entry) is popped off. Time-based pruning walks the hash map and expires any entry whose `Created` timestamp is older than `maxAge` milliseconds.
 
 ```
-put(data, hash)   → append to list tail, index in hash map
-read(hash)         → hash map lookup, return datum or false
-touch(hash)        → remove + re-insert at tail with fresh timestamp
-expire(hash)       → remove from list and hash map
-prune()            → expire by age, then pop by length
+put(data, hash)   -> append to list tail, index in hash map
+read(hash)         -> hash map lookup, return datum or false
+touch(hash)        -> remove + re-insert at tail with fresh timestamp
+expire(hash)       -> remove from list and hash map
+prune()            -> expire by age, then pop by length
 ```
 
 ## Configuration

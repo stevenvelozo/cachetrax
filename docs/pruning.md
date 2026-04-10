@@ -13,10 +13,10 @@ cache.maxLength = 3;
 cache.put('A', 'k1');
 cache.put('B', 'k2');
 cache.put('C', 'k3');
-// Cache: [A, B, C] — at capacity
+// Cache: [A, B, C] -- at capacity
 
 cache.put('D', 'k4');
-// Cache: [B, C, D] — A was automatically evicted
+// Cache: [B, C, D] -- A was automatically evicted
 
 cache.read('k1');  // false
 cache.read('k4');  // 'D'
