@@ -1,4 +1,4 @@
-# CacheTrax <small>1</small>
+# CacheTrax
 
 > A hash-indexed object cache with time and size based expiration
 
