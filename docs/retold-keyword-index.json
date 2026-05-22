@@ -1,6 +1,7 @@
 {
-	"Generated": "2026-04-10T17:27:03.598Z",
-	"DocumentCount": 0,
+	"Generated": "2026-05-22T05:47:38.275Z",
+	"Mode": "module",
+	"DocumentCount": 5,
 	"LunrIndex": {
 		"version": "2.3.9",
 		"fields": [
@@ -9,11 +10,4374 @@
 			"group",
 			"body"
 		],
-		"fieldVectors": [],
-		"invertedIndex": [],
+		"fieldVectors": [
+			[
+				"title/README.md",
+				[
+					0,
+					4.741
+				]
+			],
+			[
+				"module/README.md",
+				[
+					0,
+					2.094
+				]
+			],
+			[
+				"group/README.md",
+				[]
+			],
+			[
+				"body/README.md",
+				[
+					0,
+					0.536,
+					1,
+					0.492,
+					2,
+					1.12,
+					3,
+					0.079,
+					4,
+					0.135,
+					5,
+					0.492,
+					6,
+					0.921,
+					7,
+					0.536,
+					8,
+					0.492,
+					9,
+					1.251,
+					10,
+					1.251,
+					11,
+					0.486,
+					12,
+					0.69,
+					13,
+					0.69,
+					14,
+					1.12,
+					15,
+					0.69,
+					16,
+					0.69,
+					17,
+					0.428,
+					18,
+					0.129,
+					19,
+					1.302,
+					20,
+					0.149,
+					21,
+					1.251,
+					22,
+					0.111,
+					23,
+					0.138,
+					24,
+					0.141,
+					25,
+					0.129,
+					26,
+					0.69,
+					27,
+					0.69,
+					28,
+					1.12,
+					29,
+					0.26,
+					30,
+					1.251,
+					31,
+					0.525,
+					32,
+					0.79,
+					33,
+					1.251,
+					34,
+					0.79,
+					35,
+					0.79,
+					36,
+					1.251,
+					37,
+					0.79,
+					38,
+					0.368,
+					39,
+					0.368,
+					40,
+					1.12,
+					41,
+					1.251,
+					42,
+					0.79,
+					43,
+					0.79,
+					44,
+					1.251,
+					45,
+					0.79,
+					46,
+					0.486,
+					47,
+					0.79,
+					48,
+					0.368,
+					49,
+					1.251,
+					50,
+					0.79,
+					51,
+					0.79,
+					52,
+					1.417,
+					53,
+					1.417,
+					54,
+					0.79,
+					55,
+					0.79,
+					56,
+					0.69,
+					57,
+					1.251,
+					58,
+					0.486,
+					59,
+					0.79,
+					60,
+					0.79,
+					61,
+					1.251,
+					62,
+					0.79,
+					63,
+					1.251,
+					64,
+					0.79,
+					65,
+					0.596,
+					66,
+					0.26,
+					67,
+					1.251,
+					68,
+					1.251,
+					69,
+					0.79,
+					70,
+					1.774,
+					71,
+					1.774,
+					72,
+					1.251,
+					73,
+					1.12,
+					74,
+					1.251,
+					75,
+					0.486,
+					76,
+					0.26,
+					77,
+					0.79,
+					78,
+					1.251,
+					79,
+					0.486,
+					80,
+					0.79,
+					81,
+					1.251,
+					82,
+					0.079,
+					83,
+					0.486,
+					84,
+					1.251,
+					85,
+					1.251,
+					86,
+					1.251,
+					87,
+					1.251,
+					88,
+					1.251,
+					89,
+					1.251,
+					90,
+					0.79
+				]
+			],
+			[
+				"title/_cover.md",
+				[
+					0,
+					4.741
+				]
+			],
+			[
+				"module/_cover.md",
+				[
+					0,
+					2.094
+				]
+			],
+			[
+				"group/_cover.md",
+				[]
+			],
+			[
+				"body/_cover.md",
+				[
+					0,
+					0.601,
+					1,
+					0.5,
+					2,
+					1.256,
+					3,
+					0.125,
+					4,
+					0.106,
+					5,
+					0.5,
+					6,
+					0.936,
+					7,
+					0.537,
+					8,
+					0.5,
+					13,
+					0.773,
+					15,
+					0.773,
+					16,
+					0.773,
+					17,
+					0.413,
+					18,
+					0.125,
+					20,
+					0.125,
+					22,
+					0.125,
+					23,
+					0.129,
+					24,
+					0.125,
+					25,
+					0.125,
+					26,
+					0.773,
+					27,
+					0.773,
+					28,
+					1.256,
+					48,
+					0.413,
+					56,
+					0.773,
+					62,
+					1.256,
+					64,
+					1.256,
+					80,
+					1.256,
+					91,
+					1.989,
+					92,
+					1.989,
+					93,
+					0.773,
+					94,
+					1.989,
+					95,
+					1.256,
+					96,
+					1.989
+				]
+			],
+			[
+				"title/architecture.md",
+				[
+					79,
+					6.103
+				]
+			],
+			[
+				"module/architecture.md",
+				[
+					0,
+					2.094
+				]
+			],
+			[
+				"group/architecture.md",
+				[]
+			],
+			[
+				"body/architecture.md",
+				[
+					0,
+					0.622,
+					1,
+					0.491,
+					3,
+					0.111,
+					4,
+					0.131,
+					8,
+					0.368,
+					11,
+					0.485,
+					12,
+					0.92,
+					13,
+					0.485,
+					14,
+					1.494,
+					15,
+					0.485,
+					16,
+					0.485,
+					17,
+					0.427,
+					18,
+					0.129,
+					19,
+					1.3,
+					20,
+					0.111,
+					22,
+					0.078,
+					23,
+					0.067,
+					24,
+					0.078,
+					25,
+					0.078,
+					27,
+					0.485,
+					29,
+					0.259,
+					31,
+					0.51,
+					32,
+					0.788,
+					35,
+					0.788,
+					38,
+					0.259,
+					39,
+					0.259,
+					46,
+					0.689,
+					52,
+					1.118,
+					53,
+					1.118,
+					54,
+					0.788,
+					55,
+					0.788,
+					56,
+					0.8,
+					58,
+					0.485,
+					59,
+					0.788,
+					60,
+					0.788,
+					65,
+					0.6,
+					66,
+					0.259,
+					69,
+					0.788,
+					73,
+					0.788,
+					75,
+					0.485,
+					76,
+					0.259,
+					79,
+					0.485,
+					82,
+					0.078,
+					90,
+					0.788,
+					93,
+					0.8,
+					95,
+					0.788,
+					97,
+					1.771,
+					98,
+					1.248,
+					99,
+					2.059,
+					100,
+					2.059,
+					101,
+					0.871,
+					102,
+					1.248,
+					103,
+					1.118,
+					104,
+					0.788,
+					105,
+					1.248,
+					106,
+					1.3,
+					107,
+					0.871,
+					108,
+					0.788,
+					109,
+					1.248,
+					110,
+					0.788,
+					111,
+					1.248,
+					112,
+					0.788,
+					113,
+					1.771,
+					114,
+					0.485,
+					115,
+					1.248,
+					116,
+					0.788,
+					117,
+					1.248,
+					118,
+					0.788,
+					119,
+					1.248,
+					120,
+					1.771,
+					121,
+					1.248,
+					122,
+					0.788,
+					123,
+					1.248,
+					124,
+					0.485,
+					125,
+					0.788,
+					126,
+					0.788,
+					127,
+					1.248,
+					128,
+					1.771,
+					129,
+					0.788,
+					130,
+					0.485,
+					131,
+					1.248,
+					132,
+					0.788,
+					133,
+					1.248,
+					134,
+					1.248,
+					135,
+					1.248,
+					136,
+					1.248,
+					137,
+					1.771,
+					138,
+					0.485,
+					139,
+					0.689,
+					140,
+					1.118,
+					141,
+					1.248,
+					142,
+					1.248,
+					143,
+					1.248,
+					144,
+					1.248,
+					145,
+					1.248,
+					146,
+					1.248,
+					147,
+					0.788,
+					148,
+					1.248,
+					149,
+					1.248,
+					150,
+					1.248,
+					151,
+					1.248,
+					152,
+					1.248,
+					153,
+					1.248,
+					154,
+					1.248,
+					155,
+					0.788,
+					156,
+					1.248,
+					157,
+					1.248,
+					158,
+					1.248,
+					159,
+					1.248,
+					160,
+					1.248,
+					161,
+					1.248
+				]
+			],
+			[
+				"title/operations.md",
+				[
+					4,
+					0.631,
+					82,
+					0.74
+				]
+			],
+			[
+				"module/operations.md",
+				[
+					0,
+					2.094
+				]
+			],
+			[
+				"group/operations.md",
+				[]
+			],
+			[
+				"body/operations.md",
+				[
+					0,
+					0.415,
+					1,
+					0.526,
+					3,
+					0.119,
+					4,
+					0.141,
+					5,
+					0.285,
+					7,
+					0.285,
+					12,
+					0.534,
+					17,
+					0.393,
+					18,
+					0.154,
+					20,
+					0.136,
+					22,
+					0.086,
+					23,
+					0.073,
+					24,
+					0.086,
+					25,
+					0.086,
+					29,
+					0.285,
+					31,
+					0.564,
+					34,
+					0.867,
+					37,
+					1.195,
+					38,
+					0.285,
+					39,
+					0.285,
+					42,
+					0.867,
+					43,
+					1.195,
+					45,
+					1.195,
+					46,
+					0.953,
+					47,
+					0.867,
+					48,
+					0.285,
+					51,
+					0.867,
+					58,
+					0.736,
+					65,
+					0.45,
+					66,
+					0.285,
+					76,
+					0.45,
+					82,
+					0.119,
+					101,
+					0.736,
+					103,
+					1.195,
+					104,
+					0.867,
+					107,
+					0.908,
+					108,
+					0.867,
+					110,
+					1.195,
+					112,
+					1.548,
+					114,
+					0.534,
+					116,
+					1.195,
+					124,
+					0.736,
+					125,
+					0.867,
+					126,
+					1.369,
+					130,
+					0.534,
+					138,
+					0.534,
+					139,
+					0.843,
+					162,
+					1.372,
+					163,
+					1.372,
+					164,
+					1.372,
+					165,
+					1.372,
+					166,
+					1.372,
+					167,
+					1.195,
+					168,
+					1.548,
+					169,
+					1.372,
+					170,
+					1.372,
+					171,
+					1.372,
+					172,
+					1.372,
+					173,
+					2.167,
+					174,
+					1.372,
+					175,
+					1.893,
+					176,
+					1.372,
+					177,
+					1.372,
+					178,
+					1.893,
+					179,
+					1.893,
+					180,
+					0.867,
+					181,
+					1.372,
+					182,
+					1.372,
+					183,
+					1.372,
+					184,
+					1.372,
+					185,
+					1.372,
+					186,
+					1.893,
+					187,
+					1.893,
+					188,
+					1.372,
+					189,
+					0.867,
+					190,
+					1.372,
+					191,
+					1.372,
+					192,
+					0.867,
+					193,
+					1.372,
+					194,
+					1.372,
+					195,
+					1.372,
+					196,
+					1.372,
+					197,
+					1.372,
+					198,
+					1.372,
+					199,
+					1.372,
+					200,
+					1.372,
+					201,
+					1.372,
+					202,
+					1.372
+				]
+			],
+			[
+				"title/pruning.md",
+				[
+					23,
+					0.631,
+					83,
+					4.586
+				]
+			],
+			[
+				"module/pruning.md",
+				[
+					0,
+					2.094
+				]
+			],
+			[
+				"group/pruning.md",
+				[]
+			],
+			[
+				"body/pruning.md",
+				[
+					0,
+					0.39,
+					3,
+					0.081,
+					4,
+					0.133,
+					5,
+					0.268,
+					6,
+					0.705,
+					7,
+					0.435,
+					8,
+					0.435,
+					11,
+					0.705,
+					18,
+					0.081,
+					20,
+					0.143,
+					22,
+					0.114,
+					23,
+					0.136,
+					24,
+					0.081,
+					25,
+					0.081,
+					26,
+					0.815,
+					29,
+					0.268,
+					31,
+					0.568,
+					38,
+					0.376,
+					39,
+					0.268,
+					40,
+					0.815,
+					48,
+					0.376,
+					50,
+					1.146,
+					65,
+					0.516,
+					66,
+					0.268,
+					75,
+					0.502,
+					76,
+					0.53,
+					77,
+					0.815,
+					82,
+					0.081,
+					83,
+					0.815,
+					93,
+					0.705,
+					101,
+					0.502,
+					106,
+					0.815,
+					107,
+					0.502,
+					114,
+					0.502,
+					118,
+					0.815,
+					122,
+					0.815,
+					124,
+					0.502,
+					129,
+					0.815,
+					130,
+					0.502,
+					132,
+					0.815,
+					138,
+					0.502,
+					139,
+					0.705,
+					140,
+					0.815,
+					147,
+					0.815,
+					155,
+					0.815,
+					167,
+					0.815,
+					168,
+					0.815,
+					180,
+					0.815,
+					189,
+					0.815,
+					192,
+					0.815,
+					203,
+					1.814,
+					204,
+					1.291,
+					205,
+					1.291,
+					206,
+					1.291,
+					207,
+					1.291,
+					208,
+					1.291,
+					209,
+					1.814,
+					210,
+					1.291,
+					211,
+					1.291,
+					212,
+					1.291,
+					213,
+					1.814,
+					214,
+					1.291,
+					215,
+					1.291,
+					216,
+					1.291,
+					217,
+					1.814,
+					218,
+					1.291,
+					219,
+					2.397,
+					220,
+					1.291,
+					221,
+					1.291,
+					222,
+					1.291,
+					223,
+					1.291,
+					224,
+					2.097,
+					225,
+					1.291,
+					226,
+					1.814,
+					227,
+					2.097,
+					228,
+					1.291,
+					229,
+					1.291,
+					230,
+					1.291,
+					231,
+					1.814,
+					232,
+					1.291,
+					233,
+					1.814,
+					234,
+					1.291,
+					235,
+					1.291,
+					236,
+					2.097,
+					237,
+					1.814,
+					238,
+					1.291,
+					239,
+					1.291,
+					240,
+					1.814,
+					241,
+					1.814,
+					242,
+					1.291,
+					243,
+					1.291,
+					244,
+					1.291,
+					245,
+					1.291,
+					246,
+					1.291,
+					247,
+					1.291,
+					248,
+					1.291,
+					249,
+					1.291,
+					250,
+					1.291,
+					251,
+					1.291,
+					252,
+					1.291,
+					253,
+					1.291,
+					254,
+					1.291,
+					255,
+					1.291,
+					256,
+					1.291,
+					257,
+					1.291,
+					258,
+					1.291,
+					259,
+					1.291,
+					260,
+					1.291,
+					261,
+					1.291,
+					262,
+					1.291
+				]
+			]
+		],
+		"invertedIndex": [
+			[
+				"",
+				{
+					"_index": 65,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"accept",
+				{
+					"_index": 250,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"access",
+				{
+					"_index": 103,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"accumul",
+				{
+					"_index": 240,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"ad",
+				{
+					"_index": 115,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"add",
+				{
+					"_index": 166,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"ag",
+				{
+					"_index": 48,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"allow",
+				{
+					"_index": 144,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"alreadi",
+				{
+					"_index": 170,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"append",
+				{
+					"_index": 125,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"appli",
+				{
+					"_index": 246,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"applic",
+				{
+					"_index": 27,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"architectur",
+				{
+					"_index": 79,
+					"title": {
+						"architecture.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"argument",
+				{
+					"_index": 247,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"array",
+				{
+					"_index": 227,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"attach",
+				{
+					"_index": 60,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"auto",
+				{
+					"_index": 136,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"automat",
+				{
+					"_index": 22,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"avail",
+				{
+					"_index": 160,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"back",
+				{
+					"_index": 91,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"base",
+				{
+					"_index": 7,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"be",
+				{
+					"_index": 185,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"behavior",
+				{
+					"_index": 37,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"beyond",
+				{
+					"_index": 257,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"both",
+				{
+					"_index": 93,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"browser",
+				{
+					"_index": 56,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"browserifi",
+				{
+					"_index": 159,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"bundl",
+				{
+					"_index": 156,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"cach",
+				{
+					"_index": 4,
+					"title": {
+						"operations.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"cachetrax",
+				{
+					"_index": 0,
+					"title": {
+						"README.md": {},
+						"_cover.md": {}
+					},
+					"module": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"call",
+				{
+					"_index": 219,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"callback",
+				{
+					"_index": 225,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"caller",
+				{
+					"_index": 148,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"capac",
+				{
+					"_index": 176,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"chain",
+				{
+					"_index": 251,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"chang",
+				{
+					"_index": 180,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"class",
+				{
+					"_index": 90,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"classic",
+				{
+					"_index": 98,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"cleanup",
+				{
+					"_index": 260,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"collect",
+				{
+					"_index": 145,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"combin",
+				{
+					"_index": 11,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"common",
+				{
+					"_index": 252,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"compat",
+				{
+					"_index": 57,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"configur",
+				{
+					"_index": 64,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"constant",
+				{
+					"_index": 33,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"constraint",
+				{
+					"_index": 253,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"constructor",
+				{
+					"_index": 154,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"core",
+				{
+					"_index": 163,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"counter",
+				{
+					"_index": 143,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"creat",
+				{
+					"_index": 197,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"creation",
+				{
+					"_index": 110,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"current",
+				{
+					"_index": 187,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"custom",
+				{
+					"_index": 25,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"data",
+				{
+					"_index": 99,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"datum",
+				{
+					"_index": 112,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"debug",
+				{
+					"_index": 202,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"default",
+				{
+					"_index": 68,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"depend",
+				{
+					"_index": 86,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"descript",
+				{
+					"_index": 69,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"direct",
+				{
+					"_index": 200,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"directli",
+				{
+					"_index": 111,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"document",
+				{
+					"_index": 78,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"doubl",
+				{
+					"_index": 16,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"dure",
+				{
+					"_index": 77,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"e.g",
+				{
+					"_index": 119,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"each",
+				{
+					"_index": 106,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"end",
+				{
+					"_index": 128,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"enforc",
+				{
+					"_index": 254,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"entri",
+				{
+					"_index": 31,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"entry'",
+				{
+					"_index": 45,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"environ",
+				{
+					"_index": 95,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"evict",
+				{
+					"_index": 20,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"exce",
+				{
+					"_index": 129,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"exceed",
+				{
+					"_index": 72,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"excess",
+				{
+					"_index": 215,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"exist",
+				{
+					"_index": 167,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"expir",
+				{
+					"_index": 8,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"expire(phash",
+				{
+					"_index": 191,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"extend",
+				{
+					"_index": 54,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"fabl",
+				{
+					"_index": 52,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"fast",
+				{
+					"_index": 102,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"featur",
+				{
+					"_index": 30,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"fifo",
+				{
+					"_index": 134,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"first",
+				{
+					"_index": 223,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"five",
+				{
+					"_index": 162,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"found",
+				{
+					"_index": 186,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"fprunefunct",
+				{
+					"_index": 245,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"framework",
+				{
+					"_index": 88,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"fresh",
+				{
+					"_index": 189,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"full",
+				{
+					"_index": 194,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"function",
+				{
+					"_index": 26,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"gener",
+				{
+					"_index": 137,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"getnode(phash",
+				{
+					"_index": 193,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"github",
+				{
+					"_index": 96,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"give",
+				{
+					"_index": 133,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"global",
+				{
+					"_index": 161,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"greater",
+				{
+					"_index": 206,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"grow",
+				{
+					"_index": 256,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"handl",
+				{
+					"_index": 233,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"happen",
+				{
+					"_index": 210,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"hash",
+				{
+					"_index": 1,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"head",
+				{
+					"_index": 130,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"hold",
+				{
+					"_index": 117,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"immedi",
+				{
+					"_index": 214,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"implement",
+				{
+					"_index": 198,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"includ",
+				{
+					"_index": 58,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"increas",
+				{
+					"_index": 142,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"index",
+				{
+					"_index": 2,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"individu",
+				{
+					"_index": 205,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"inject",
+				{
+					"_index": 87,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"insert",
+				{
+					"_index": 24,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"insid",
+				{
+					"_index": 211,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"inspect",
+				{
+					"_index": 196,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"instal",
+				{
+					"_index": 63,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"instead",
+				{
+					"_index": 182,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"integr",
+				{
+					"_index": 149,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"intern",
+				{
+					"_index": 195,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"intervent",
+				{
+					"_index": 212,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"iter",
+				{
+					"_index": 201,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"javascript",
+				{
+					"_index": 105,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"keep",
+				{
+					"_index": 172,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"key",
+				{
+					"_index": 14,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"left",
+				{
+					"_index": 131,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"length",
+				{
+					"_index": 224,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"let",
+				{
+					"_index": 239,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"lightweight",
+				{
+					"_index": 9,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"limit",
+				{
+					"_index": 209,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"link",
+				{
+					"_index": 17,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"list",
+				{
+					"_index": 18,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"logic",
+				{
+					"_index": 51,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"lookup",
+				{
+					"_index": 15,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"maintain",
+				{
+					"_index": 35,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"mainten",
+				{
+					"_index": 232,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"manag",
+				{
+					"_index": 29,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"manual",
+				{
+					"_index": 192,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"map",
+				{
+					"_index": 12,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"max",
+				{
+					"_index": 92,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"maximum",
+				{
+					"_index": 71,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"mean",
+				{
+					"_index": 73,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"mechan",
+				{
+					"_index": 204,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"memori",
+				{
+					"_index": 10,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"metadata",
+				{
+					"_index": 108,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"method",
+				{
+					"_index": 249,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"millisecond",
+				{
+					"_index": 40,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"miss",
+				{
+					"_index": 179,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"monoton",
+				{
+					"_index": 141,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"move",
+				{
+					"_index": 184,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"multipl",
+				{
+					"_index": 241,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"never",
+				{
+					"_index": 255,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"new",
+				{
+					"_index": 124,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"newer",
+				{
+					"_index": 123,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"next",
+				{
+					"_index": 122,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"node",
+				{
+					"_index": 107,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"node.j",
+				{
+					"_index": 94,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"normal",
+				{
+					"_index": 259,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"number",
+				{
+					"_index": 70,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"o(1",
+				{
+					"_index": 13,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"object",
+				{
+					"_index": 3,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"older",
+				{
+					"_index": 75,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"oldest",
+				{
+					"_index": 39,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"on",
+				{
+					"_index": 138,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"oper",
+				{
+					"_index": 82,
+					"title": {
+						"operations.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"option",
+				{
+					"_index": 237,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"order",
+				{
+					"_index": 19,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"origin",
+				{
+					"_index": 174,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"out",
+				{
+					"_index": 49,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"over",
+				{
+					"_index": 175,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"overag",
+				{
+					"_index": 261,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"packag",
+				{
+					"_index": 85,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"paramet",
+				{
+					"_index": 238,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"pass",
+				{
+					"_index": 50,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"pattern",
+				{
+					"_index": 140,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"perform",
+				{
+					"_index": 230,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"period",
+				{
+					"_index": 231,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"phash",
+				{
+					"_index": 165,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"place",
+				{
+					"_index": 171,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"plain",
+				{
+					"_index": 104,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"plu",
+				{
+					"_index": 258,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"pointer",
+				{
+					"_index": 120,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"pop",
+				{
+					"_index": 132,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"posit",
+				{
+					"_index": 173,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"predict",
+				{
+					"_index": 36,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"premovedrecord",
+				{
+					"_index": 236,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"prevent",
+				{
+					"_index": 47,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"previou",
+				{
+					"_index": 121,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"properti",
+				{
+					"_index": 66,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"provid",
+				{
+					"_index": 101,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"prune",
+				{
+					"_index": 23,
+					"title": {
+						"pruning.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"prune(fcomplet",
+				{
+					"_index": 220,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"prunebasedonexpiration(fcomplet",
+				{
+					"_index": 235,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"prunebasedonlength(fcomplet",
+				{
+					"_index": 242,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"prunecustom(fcomplet",
+				{
+					"_index": 244,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"put(pdata",
+				{
+					"_index": 164,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"quackag",
+				{
+					"_index": 158,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"quick",
+				{
+					"_index": 61,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"re",
+				{
+					"_index": 188,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"read",
+				{
+					"_index": 34,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"read(phash",
+				{
+					"_index": 177,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"receiv",
+				{
+					"_index": 226,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"recommend",
+				{
+					"_index": 228,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"record",
+				{
+					"_index": 248,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"recordmap",
+				{
+					"_index": 199,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"reduc",
+				{
+					"_index": 213,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"refresh",
+				{
+					"_index": 43,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"regist",
+				{
+					"_index": 55,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"reinvigor",
+				{
+					"_index": 44,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"relat",
+				{
+					"_index": 84,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"remain",
+				{
+					"_index": 216,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"remov",
+				{
+					"_index": 76,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"requir",
+				{
+					"_index": 147,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"reset",
+				{
+					"_index": 190,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"retriev",
+				{
+					"_index": 178,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"return",
+				{
+					"_index": 168,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"right",
+				{
+					"_index": 127,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"rule",
+				{
+					"_index": 221,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"run",
+				{
+					"_index": 155,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"runtim",
+				{
+					"_index": 262,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"semant",
+				{
+					"_index": 135,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"sequenc",
+				{
+					"_index": 222,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"servic",
+				{
+					"_index": 53,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"serviceproviderbas",
+				{
+					"_index": 89,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"set",
+				{
+					"_index": 38,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"shim",
+				{
+					"_index": 59,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"simpl",
+				{
+					"_index": 113,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"singl",
+				{
+					"_index": 234,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"size",
+				{
+					"_index": 6,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"specif",
+				{
+					"_index": 28,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"stale",
+				{
+					"_index": 41,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"standard",
+				{
+					"_index": 152,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"start",
+				{
+					"_index": 62,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"store",
+				{
+					"_index": 169,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"strategi",
+				{
+					"_index": 83,
+					"title": {
+						"pruning.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"structur",
+				{
+					"_index": 100,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"such",
+				{
+					"_index": 109,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"support",
+				{
+					"_index": 21,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"tail",
+				{
+					"_index": 126,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"three",
+				{
+					"_index": 203,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"through",
+				{
+					"_index": 151,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"time",
+				{
+					"_index": 5,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"timestamp",
+				{
+					"_index": 46,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"togeth",
+				{
+					"_index": 81,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"tool",
+				{
+					"_index": 157,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"touch",
+				{
+					"_index": 42,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"touch(phash",
+				{
+					"_index": 183,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"track",
+				{
+					"_index": 118,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"trigger",
+				{
+					"_index": 218,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"two",
+				{
+					"_index": 97,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"type",
+				{
+					"_index": 67,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"uniqu",
+				{
+					"_index": 32,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"unlimit",
+				{
+					"_index": 74,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"until",
+				{
+					"_index": 217,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"updat",
+				{
+					"_index": 116,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"us",
+				{
+					"_index": 139,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"usag",
+				{
+					"_index": 153,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"valu",
+				{
+					"_index": 114,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {},
+						"operations.md": {},
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"want",
+				{
+					"_index": 181,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"operations.md": {}
+					}
+				}
+			],
+			[
+				"way",
+				{
+					"_index": 229,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"whenev",
+				{
+					"_index": 208,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"wire",
+				{
+					"_index": 150,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"within",
+				{
+					"_index": 243,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			],
+			[
+				"without",
+				{
+					"_index": 146,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"architecture.md": {}
+					}
+				}
+			],
+			[
+				"work",
+				{
+					"_index": 80,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"_cover.md": {}
+					}
+				}
+			],
+			[
+				"zero",
+				{
+					"_index": 207,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"pruning.md": {}
+					}
+				}
+			]
+		],
 		"pipeline": [
 			"stemmer"
 		]
 	},
-	"Documents": {}
+	"Documents": {
+		"README.md": {
+			"Title": "CacheTrax",
+			"Module": "cachetrax",
+			"Group": "",
+			"DocPath": "README.md"
+		},
+		"_cover.md": {
+			"Title": "CacheTrax",
+			"Module": "cachetrax",
+			"Group": "",
+			"DocPath": "_cover.md"
+		},
+		"architecture.md": {
+			"Title": "Architecture",
+			"Module": "cachetrax",
+			"Group": "",
+			"DocPath": "architecture.md"
+		},
+		"operations.md": {
+			"Title": "Cache Operations",
+			"Module": "cachetrax",
+			"Group": "",
+			"DocPath": "operations.md"
+		},
+		"pruning.md": {
+			"Title": "Pruning Strategies",
+			"Module": "cachetrax",
+			"Group": "",
+			"DocPath": "pruning.md"
+		}
+	}
 }
