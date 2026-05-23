@@ -1,5 +1,7 @@
 # CacheTrax
 
+> **[&#9654; Read the Cachetrax Documentation](https://stevenvelozo.github.io/cachetrax/)** &mdash; interactive docs with the full API reference.
+
 > A hash-indexed object cache with time and size based expiration
 
 CacheTrax is a lightweight in-memory cache that combines a hash map for O(1) key lookups with a double linked list for ordered eviction. It supports automatic size-based pruning on insert, time-based expiration, and custom pruning functions for application-specific cache management.
