@@ -8,5 +8,5 @@
 - Custom pruning functions for application-specific eviction
 - Works in both Node.js and browser environments
 
-[GitHub](https://github.com/stevenvelozo/cachetrax)
+[GitHub](https://github.com/fable-retold/cachetrax)
 [Get Started](#cachetrax)

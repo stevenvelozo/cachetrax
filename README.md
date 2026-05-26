@@ -1,6 +1,6 @@
 # CacheTrax
 
-> **[&#9654; Read the Cachetrax Documentation](https://stevenvelozo.github.io/cachetrax/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Cachetrax Documentation](https://fable-retold.github.io/cachetrax/)** &mdash; interactive docs with the full API reference.
 
 > A hash-indexed object cache with time and size based expiration
 
@@ -111,8 +111,8 @@ npm run coverage
 
 ## Related Packages
 
-- [fable](https://github.com/stevenvelozo/fable) - Service dependency injection framework
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Base class for Fable services
+- [fable](https://github.com/fable-retold/fable) - Service dependency injection framework
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Base class for Fable services
 
 ## License
 

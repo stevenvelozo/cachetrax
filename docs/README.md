@@ -68,5 +68,5 @@ cache.maxAge = 300000;
 
 ## Related Packages
 
-- [fable](https://github.com/stevenvelozo/fable) - Service dependency injection framework
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Base class for Fable services
+- [fable](https://github.com/fable-retold/fable) - Service dependency injection framework
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Base class for Fable services
