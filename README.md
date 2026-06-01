@@ -1,6 +1,6 @@
 # CacheTrax
 
-> **[&#9654; Read the Cachetrax Documentation](https://fable-retold.github.io/cachetrax/)** &mdash; interactive docs with the full API reference.
+> **[Read the Cachetrax Documentation](https://fable-retold.github.io/cachetrax/)** - interactive docs with the full API reference.
 
 > A hash-indexed object cache with time and size based expiration
 
