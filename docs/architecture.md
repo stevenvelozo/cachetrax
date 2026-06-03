@@ -29,33 +29,8 @@ New entries are appended to the **tail** (right end). When the cache exceeds `ma
 
 ## How Operations Map to the Structures
 
-```
-put(data, hash)
-  ├── Hash exists? -> Update Datum in _HashMap node and _RecordMap
-  └── New hash?
-       ├── LinkedList.push(data, hash) -> append node to tail
-       ├── _HashMap[hash] = node
-       ├── _RecordMap[hash] = data
-       ├── Set node.Metadata.Created = now
-       └── If length > maxLength -> pop head, delete from both maps
-
-read(hash)
-  └── _HashMap[hash].Datum  (or false on miss)
-
-touch(hash)
-  ├── LinkedList.remove(node)
-  ├── Delete from both maps
-  └── put(datum, hash) -> re-insert as fresh entry at tail
-
-expire(hash)
-  ├── LinkedList.remove(node)
-  ├── Delete from both maps
-  └── Return the removed node
-
-prune()
-  ├── pruneBasedOnExpiration() -> walk _HashMap, expire nodes older than maxAge
-  └── pruneBasedOnLength() -> pop head until length <= maxLength
-```
+<!-- bespoke diagram: edit diagrams/how-operations-map-to-the-structures.mmd or .hints.json, then: npx pict-renderer-graph build modules/utility/cachetrax/docs -->
+![How Operations Map to the Structures](diagrams/how-operations-map-to-the-structures.svg)
 
 ## Auto-Generated Hashes
 
